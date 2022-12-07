@@ -20,6 +20,7 @@ class RegisterSeeder extends Seeder
   Register::create([
    'name'       => 'Juan Jose Orellana',
    'id_convict' => 1500,
+   'camera'     => 'camera-1',
   ]);
 
  }

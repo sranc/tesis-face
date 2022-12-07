@@ -17,6 +17,7 @@ class CreateRegistersTable extends Migration
    $table->id();
    $table->string('name');
    $table->string('id_convict');
+   $table->string('camera');
    $table->tinyInteger('state')->default(1);
    $table->timestamps();
   });
