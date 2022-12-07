@@ -9,6 +9,7 @@ class Register extends Model
 {
  use HasFactory;
  protected $fillable = [
+  //Sea anadio camera
   'name',
   'id_convict',
   'camera',
